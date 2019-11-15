@@ -1,0 +1,6 @@
+[requires]
+jsonformoderncpp/3.0.1@vthiery/stable
+libcurl/7.56.1@bincrafters/stable
+
+[generators]
+cmake
