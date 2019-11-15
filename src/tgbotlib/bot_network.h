@@ -5,7 +5,7 @@
 // #include <curl/curl.h>
 // struct CURL;
 struct writefn_data;
-typedef void *CURL;
+typedef void CURL;
 
 struct bot_mime_field {
 	const char *name;
@@ -16,7 +16,7 @@ struct bot_mime_field {
 // Init-deinit API.
 
 CURL *bot_network_init();
-bot_network_free(CURL *c);
+void bot_network_free(CURL *c);
 
 // low-level HTTP API.
 
